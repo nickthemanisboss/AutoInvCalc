@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+--local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 
 local Players = game:GetService('Players')
 local httpS = game:GetService("HttpService")
@@ -40,8 +40,8 @@ end)
 l:DestroyGui()
 op:DestroyGui()]]--
 
-print("asd")
-setclipboard("asd")
+local inv = getInv(knifeInv, "ImageButton")
+setclipboard(inv)
 CreateNotification("Inv2JSON", "Inventory Successfully copied to clipboard!")
 
 function getInv(parentFrame, type)
