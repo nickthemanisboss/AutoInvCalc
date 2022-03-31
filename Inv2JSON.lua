@@ -45,6 +45,7 @@ setclipboard("asd")
 CreateNotification("Inv2JSON", "Inventory Successfully copied to clipboard!")
 
 function getInv(parentFrame, type)
+  print("test")
   local total = {}
 
   for i,v in pairs(parentFrame:GetChildren()) do
