@@ -11,7 +11,7 @@ local tradeGrid = pGUI:WaitForChild("ScreenGui"):WaitForChild("UI"):WaitForChild
 local untradable = {'Onyx Scepter', 'Onyx Champion', 'Diamond Staff', 'Crystal Blade', 'Diamond Challenger', 'Ancient Sickle', 'Rubber Chicken', 'Evil Chicken', 'Slugger', 'Spark Blade', 'Lucky Chicken', "Fool's Gold", 'Tier VI', 'Tier VII', 'Tier VIII', 'Tier IX', 'Tier X', 'Gold Tier', 'Tier II', 'Tier III', 'Tier IV', 'Tier V', 'Bronze Tier', 'Silver Tier', 'Ninja', 'Purple Nation', 'Basic', 'Stuffed'}
 
 -- UI --
--[[local w = library:CreateWindow("Inv2JSON") -- Creates the window
+--[[local w = library:CreateWindow("Inv2JSON") -- Creates the window
 
 local l = w:CreateFolder("Local Player")
 local op = w:CreateFolder("Other Player")
