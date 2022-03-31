@@ -40,7 +40,7 @@ end)
 l:DestroyGui()
 op:DestroyGui()]]--
 
-print(getInv(knifeInv,"ImageButton"))
+print("asd")
 setclipboard("asd")
 CreateNotification("Inv2JSON", "Inventory Successfully copied to clipboard!")
 
