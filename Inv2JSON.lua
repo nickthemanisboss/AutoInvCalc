@@ -40,8 +40,8 @@ end)
 l:DestroyGui()
 op:DestroyGui()]]--
 
-local inv = getInv(knifeInv,"ImageButton")
-setclipboard(inv)
+print(getInv(knifeInv,"ImageButton"))
+setclipboard("asd")
 CreateNotification("Inv2JSON", "Inventory Successfully copied to clipboard!")
 
 function getInv(parentFrame, type)
